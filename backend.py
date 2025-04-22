@@ -31,7 +31,7 @@ app.add_middleware(
 )
 
 # Replace with your Gemini API key
-GOOGLE_API_KEY = "AIzaSyDE6nq5XBgZQbGBZeHUZQbDnHAR7tIUv6Q"
+GOOGLE_API_KEY = "YOUR_GOOGLE_API_KEY"
 os.environ["GOOGLE_API_KEY"] = GOOGLE_API_KEY
 
 # Initialize the embedding model
